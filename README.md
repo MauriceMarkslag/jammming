@@ -1,3 +1,16 @@
+## Introduction
+
+This Codecademy project called Jammming was made by me after finishing an introduction course on React. The purpose of the project was to use React to create components to achieve the following goals:
+
+- The app has a search bar in which a user may search for his/her favorite music. It uses the Spotify database to find those songs.
+- It has a search results components where the best matched results will appear as a tracklist after the initial search. The user may add songs from this component to the playlist.
+- The playlist component renders de added songs from the search results component. The user is able to delete added songs as well, and change the name of playlist as he/she wishes. 
+- The playlist has a button which automatically adds the playlist to the user’s Spotify account.
+
+## Current Issues
+
+The application gives a CORS error when attempting to upload the playlist to the user’s Spotify account. The request header field headers is not allowed by Access-Control-Allow-Headers in preflight response.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
